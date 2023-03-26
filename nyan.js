@@ -46,9 +46,9 @@ let aspectRatio = 1.5;
 
 let interval = 30;
 
-let context = c2.getContext('2d');
+let context = c.getContext('2d');
 
-c2.onclick = () => (delta = 5);
+c.onclick = () => (delta = 5);
 
 
 
