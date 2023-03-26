@@ -46,9 +46,9 @@ let myRec = new p5.SpeechRec();
 
 	let interval = 30;
 
-	let context = c.getContext('2d');
+	let context = c2.getContext('2d');
 
-	c.onclick = () => (delta = 5);
+	c2.onclick = () => (delta = 5);
 
 	
 
