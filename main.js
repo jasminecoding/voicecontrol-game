@@ -28,7 +28,7 @@ let myRec = new p5.SpeechRec();
 	
 
 	const player = new Image();
-	player.src = './images/pika.png';
+	player.src = 'images/pika.png';
 
 	let playerSize = 70;
 	let playerX = 0;
@@ -53,7 +53,7 @@ let myRec = new p5.SpeechRec();
 	
 
 	const backgroundImage = new Image();
-	backgroundImage.src = './images/space.png';
+	backgroundImage.src = 'images/space.png';
 	backgroundImage.onload = () => {
   	setInterval(() => {
 
