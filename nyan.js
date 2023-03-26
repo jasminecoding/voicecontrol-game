@@ -28,7 +28,7 @@ let canvasSize = 700;
 
 
 const player = new Image();
-player.src = '/images/cat3.png';
+player.src = './images/cat3.png';
 
 let playerSize = 70;
 let playerX = 0;
@@ -53,7 +53,7 @@ c.onclick = () => (delta = 5);
 
 
 const backgroundImage = new Image();
-backgroundImage.src = '/images/space.png';
+backgroundImage.src = './images/space.png';
 backgroundImage.onload = () => {
   setInterval(() => {
 
